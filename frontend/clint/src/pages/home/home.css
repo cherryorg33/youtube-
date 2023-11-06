@@ -1,0 +1,12 @@
+/* .container_page_App{
+    display: flexbox;
+    background-color: rgb(71, 69, 69);
+
+}
+.container_page_App{
+    width: calc(100vw - 5rem);
+    height: calc(100vh - 3.65rem);
+    border-top: 2px solid rgb(128,128,128,0.45);
+    overflow-y: auto;
+    
+} */

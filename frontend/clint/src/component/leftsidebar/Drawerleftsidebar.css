@@ -1,0 +1,61 @@
+.container_drawer_leftsidebar{
+   /* height: calc(100vh - 3.6rem); */
+   position: absolute;
+   display: flex;
+   width: 100vw;
+   /* overflow-y: auto;  */
+   z-index: 500;
+
+}
+.container2_drawer_leftsidebar{
+    height: calc(100vh - 3.6rem);
+    overflow-y: auto;
+    background-color: rgb(28,28,28);
+    width: 15rem;
+
+   
+
+}
+.drawer_leftsidebar,
+.libraryBtn_drawerleftsidebar{
+   padding-top: 0.5rem;
+   border-bottom: 2px solid rgba(128,128,128,0.293);
+
+
+}
+.icon_sidebar_div{
+    display: flex;
+    margin: 0;
+}
+.subscriptions_lsdbar{
+   color: white;
+
+}
+.subscriptions_lsdbar h3{
+    text-decoration: underline;
+    margin: 20px 10px;
+}
+.chanel_lsbar{
+    display: flex;
+    cursor: pointer;
+}
+.chanel_lsbar:hover{
+    color: rgb(77,77,243);
+}
+
+.chanel_lsbar p{
+     border: 1px solid;
+     background-color: gray;
+     padding: 0.5rem;
+     border-radius: 100%;
+     margin: 1rem;
+}
+.chanel_lsbar div{
+    margin: auto;
+    width: 60%;
+
+}
+.container3_drawer_leftsidebar{
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.488);
+}
