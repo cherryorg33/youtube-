@@ -6,6 +6,7 @@ import History from "../pages/history/History";
 import Likedvedio from "../pages/likedvedios/Likedvedio";
 import Yourvedios from "../pages/yourvedio/Yourvedios";
 import Watchlater from "../pages/watchlater/Watchlater";
+import Vediopage from "../pages/vediopage/vediopage";
 function Allroutes() {
   return (
     <Routes>
@@ -15,6 +16,7 @@ function Allroutes() {
       <Route path="/likedvedios" element={<Likedvedio />} />
       <Route path="/yourvedio" element={<Yourvedios />} />
       <Route path="/watchlater" element={<Watchlater />} />
+      <Route path="/vediopage/:vid" element={<Vediopage />} />
     </Routes>
   );
 }

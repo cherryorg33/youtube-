@@ -1,0 +1,21 @@
+.comment_body{
+    color: rgb(197,197,197);
+    margin: o;
+    margin-top: 0.5rem;
+
+}
+.usercommentd{
+    color: rgb(50,50,50);
+    margin: 0;
+    
+}
+.editdel_diaplaycomment{
+  cursor: pointer;  
+  padding: 0.2rem;
+  margin: 0;
+  margin-bottom: 0.8rem;
+  color: rgba(44,85,209,0.696);
+}
+.editdel_diaplaycomment i{
+    padding: 0.2rem;
+}

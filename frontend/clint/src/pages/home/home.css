@@ -1,12 +1,32 @@
-/* .container_page_App{
+.container_page_App{
     display: flexbox;
     background-color: rgb(71, 69, 69);
 
 }
-.container_page_App{
+.container2_page_App{
     width: calc(100vw - 5rem);
     height: calc(100vh - 3.65rem);
     border-top: 2px solid rgb(128,128,128,0.45);
     overflow-y: auto;
     
-} */
+}
+
+.navigation_cont{
+   color: white;
+   background-color: rgb(37,37,37); 
+   display: flex;
+   position: sticky;
+   overflow-x: auto;
+   top: 0;
+   border-bottom: 2px solid rgb(128.128,128,0.27);
+}
+.item{
+    background-color: rgb(46,46,46);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.item:hover{
+    background-color: rgb(128,128,128);
+}
